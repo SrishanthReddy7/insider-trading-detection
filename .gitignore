@@ -1,0 +1,63 @@
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend storage
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Node / Next.js
+node_modules/
+.next/
+frontend/.next/
+frontend/out/
+frontend/dist/
+.turbo/
+.vercel/
+
+# Environment
+.env
+.env.*
+.env*.local
+frontend/.env.local
+backend/.env
+!.env.example
+!frontend/.env.example
+!backend/.env.example
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+tree_output.txt
+structure.txt
